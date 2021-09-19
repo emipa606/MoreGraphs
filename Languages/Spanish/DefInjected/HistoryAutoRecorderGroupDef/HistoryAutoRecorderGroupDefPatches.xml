@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--<defName>MoreGraphs_Wealth</defName>-->
+  <MoreGraphs_Wealth.label>Riqueza - Objetos</MoreGraphs_Wealth.label>
+  <!--<defName>MoreGraphs_Nutrition</defName>-->
+  <MoreGraphs_Nutrition.label>Nutrición</MoreGraphs_Nutrition.label>
+  <!--<defName>MoreGraphs_Materials</defName>-->
+  <MoreGraphs_Materials.label>Materiales</MoreGraphs_Materials.label>
+  <!--<defName>MoreGraphs_SmallMaterials</defName>-->
+  <MoreGraphs_SmallMaterials.label>Plata</MoreGraphs_SmallMaterials.label>
+  <!--<defName>MoreGraphs_Manufactured</defName>-->
+  <MoreGraphs_Manufactured.label>Manufacturado</MoreGraphs_Manufactured.label>
+  <!--<defName>MoreGraphs_Power</defName>-->
+  <MoreGraphs_Power.label>Energía</MoreGraphs_Power.label>
+</LanguageData>

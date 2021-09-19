@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--<defName>MoreGraphs_Wealth</defName>-->
+  <!-- <MoreGraphs_Wealth.label>Riqueza - Objetos</MoreGraphs_Wealth.label> -->
+  <!--<defName>MoreGraphs_Wealth_Materials</defName>-->
+  <MoreGraphs_Wealth_Materials.label>Materiales</MoreGraphs_Wealth_Materials.label>
+  <!--<defName>MoreGraphs_Wealth_Manufactured</defName>-->
+  <MoreGraphs_Wealth_Manufactured.label>Manufacturado</MoreGraphs_Wealth_Manufactured.label>
+  <!--<defName>MoreGraphs_Wealth_Food</defName>-->
+  <MoreGraphs_Wealth_Food.label>Comida</MoreGraphs_Wealth_Food.label>
+  <!--<defName>MoreGraphs_Wealth_MedicalDrugs</defName>-->
+  <MoreGraphs_Wealth_MedicalDrugs.label>Medicina/drogas</MoreGraphs_Wealth_MedicalDrugs.label>
+  <!--<defName>MoreGraphs_Wealth_ClothingArmor</defName>-->
+  <MoreGraphs_Wealth_ClothingArmor.label>Vestimenta</MoreGraphs_Wealth_ClothingArmor.label>
+  <!--<defName>MoreGraphs_Wealth_Weapons</defName>-->
+  <MoreGraphs_Wealth_Weapons.label>Armas</MoreGraphs_Wealth_Weapons.label>
+  <!--<defName>MoreGraphs_Nutrition</defName>-->
+  <!-- <MoreGraphs_Nutrition.label>Nutrición</MoreGraphs_Nutrition.label> -->
+  <!--<defName>MoreGraphs_Nutrition_Total</defName>-->
+  <MoreGraphs_Nutrition_Total.label>Total</MoreGraphs_Nutrition_Total.label>
+  <!--<defName>MoreGraphs_Nutrition_Veg</defName>-->
+  <MoreGraphs_Nutrition_Veg.label>Vegetariana</MoreGraphs_Nutrition_Veg.label>
+  <!--<defName>MoreGraphs_Nutrition_Meat</defName>-->
+  <MoreGraphs_Nutrition_Meat.label>Carne</MoreGraphs_Nutrition_Meat.label>
+  <!--<defName>MoreGraphs_Nutrition_AnimalProd</defName>-->
+  <MoreGraphs_Nutrition_AnimalProd.label>Productos animales</MoreGraphs_Nutrition_AnimalProd.label>
+  <!--<defName>MoreGraphs_Nutrition_Meals</defName>-->
+  <MoreGraphs_Nutrition_Meals.label>Comidas</MoreGraphs_Nutrition_Meals.label>
+  <!--<defName>MoreGraphs_Materials</defName>-->
+  <!-- <MoreGraphs_Materials.label>Materiales</MoreGraphs_Materials.label> -->
+  <!--<defName>MoreGraphs_Materials_Wood</defName>-->
+  <MoreGraphs_Materials_Wood.label>Madera</MoreGraphs_Materials_Wood.label>
+  <!--<defName>MoreGraphs_Materials_Steel</defName>-->
+  <MoreGraphs_Materials_Steel.label>Acero</MoreGraphs_Materials_Steel.label>
+  <!--<defName>MoreGraphs_Materials_Plasteel</defName>-->
+  <MoreGraphs_Materials_Plasteel.label>Plastiacero</MoreGraphs_Materials_Plasteel.label>
+  <!--<defName>MoreGraphs_Materials_Uranium</defName>-->
+  <MoreGraphs_Materials_Uranium.label>Uranio</MoreGraphs_Materials_Uranium.label>
+  <!--<defName>MoreGraphs_SmallMaterials_Gold</defName>-->
+  <MoreGraphs_SmallMaterials_Gold.label>Oro</MoreGraphs_SmallMaterials_Gold.label>
+  <!--<defName>MoreGraphs_SmallMaterials_Jade</defName>-->
+  <MoreGraphs_SmallMaterials_Jade.label>Jade</MoreGraphs_SmallMaterials_Jade.label>
+  <!--<defName>MoreGraphs_SmallMaterials</defName>-->
+  <!-- <MoreGraphs_SmallMaterials.label>Plata</MoreGraphs_SmallMaterials.label> -->
+  <!--<defName>MoreGraphs_SmallMaterials_Silver</defName>-->
+  <MoreGraphs_SmallMaterials_Silver.label>Plata</MoreGraphs_SmallMaterials_Silver.label>
+  <!--<defName>MoreGraphs_Manufactured</defName>-->
+  <!-- <MoreGraphs_Manufactured.label>Manufacturado</MoreGraphs_Manufactured.label> -->
+  <!--<defName>MoreGraphs_Manufactured_Components</defName>-->
+  <MoreGraphs_Manufactured_Components.label>Componentes</MoreGraphs_Manufactured_Components.label>
+  <!--<defName>MoreGraphs_Manufactured_AdvancedComponents</defName>-->
+  <MoreGraphs_Manufactured_AdvancedComponents.label>Componentes avanz.</MoreGraphs_Manufactured_AdvancedComponents.label>
+  <!--<defName>MoreGraphs_Manufactured_Medicine</defName>-->
+  <MoreGraphs_Manufactured_Medicine.label>Medicinas</MoreGraphs_Manufactured_Medicine.label>
+  <!--<defName>MoreGraphs_Manufactured_Drugs</defName>-->
+  <MoreGraphs_Manufactured_Drugs.label>Drogas</MoreGraphs_Manufactured_Drugs.label>
+  <!--<defName>MoreGraphs_Power</defName>-->
+  <!-- <MoreGraphs_Power.label>Energía</MoreGraphs_Power.label> -->
+  <!--<defName>MoreGraphs_Engergy_Gain_Rate</defName>-->
+  <MoreGraphs_Engergy_Gain_Rate.label>Exceso de energía</MoreGraphs_Engergy_Gain_Rate.label>
+  <!--<defName>MoreGraphs_Stored_Energy</defName>-->
+  <MoreGraphs_Stored_Energy.label>Energía almacenada</MoreGraphs_Stored_Energy.label>
+</LanguageData>

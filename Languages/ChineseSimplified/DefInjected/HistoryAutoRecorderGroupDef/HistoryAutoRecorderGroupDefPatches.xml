@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--<defName>MoreGraphs_Wealth</defName>-->
+  <MoreGraphs_Wealth.label>物品财富</MoreGraphs_Wealth.label>
+  <!--<defName>MoreGraphs_Nutrition</defName>-->
+  <MoreGraphs_Nutrition.label>食品</MoreGraphs_Nutrition.label>
+  <!--<defName>MoreGraphs_Materials</defName>-->
+  <MoreGraphs_Materials.label>原材料</MoreGraphs_Materials.label>
+  <!--<defName>MoreGraphs_SmallMaterials</defName>-->
+  <MoreGraphs_SmallMaterials.label>白银</MoreGraphs_SmallMaterials.label>
+  <!--<defName>MoreGraphs_Manufactured</defName>-->
+  <MoreGraphs_Manufactured.label>制成品</MoreGraphs_Manufactured.label>
+  <!--<defName>MoreGraphs_Power</defName>-->
+  <MoreGraphs_Power.label>电力</MoreGraphs_Power.label>
+</LanguageData>
