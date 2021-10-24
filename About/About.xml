@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>More Graphs (Continued)</name>
   <packageId>Mlie.MoreGraphs</packageId>
@@ -17,6 +17,7 @@ Update of natbob1s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1966250412
 
 - Added spanish translation, via Ferchu
+- Added research-graph, points researched per tech-level
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 

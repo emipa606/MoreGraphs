@@ -6,6 +6,7 @@ Update of natbob1s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1966250412
 
 - Added spanish translation, via Ferchu
+- Added research-graph, points researched per tech-level
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 

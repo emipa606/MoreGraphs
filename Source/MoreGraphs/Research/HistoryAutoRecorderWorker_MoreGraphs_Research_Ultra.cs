@@ -2,7 +2,7 @@ using System.Linq;
 using RimWorld;
 using Verse;
 
-namespace MoreGraphs.Power
+namespace MoreGraphs.Research
 {
     public class HistoryAutoRecorderWorker_MoreGraphs_Research_Ultra : HistoryAutoRecorderWorker
     {

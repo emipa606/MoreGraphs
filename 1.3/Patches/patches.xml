@@ -455,7 +455,7 @@
             <graphColor>
               <!--Pink -->(0.909, 0.482, 0.674, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
-            <workerClass>MoreGraphs.Power.HistoryAutoRecorderWorker_MoreGraphs_Research_Neolithic</workerClass>
+            <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Neolithic</workerClass>
             <graphLabelY>points</graphLabelY>
           </HistoryAutoRecorderDef>
         </value>
@@ -469,7 +469,7 @@
             <graphColor>
               <!--Orange -->(0.878, 0.462, 0.184, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
-            <workerClass>MoreGraphs.Power.HistoryAutoRecorderWorker_MoreGraphs_Research_Medieval</workerClass>
+            <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Medieval</workerClass>
             <graphLabelY>points</graphLabelY>
           </HistoryAutoRecorderDef>
         </value>
@@ -483,7 +483,7 @@
             <graphColor>
               <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
-            <workerClass>MoreGraphs.Power.HistoryAutoRecorderWorker_MoreGraphs_Research_Industrial</workerClass>
+            <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Industrial</workerClass>
             <graphLabelY>points</graphLabelY>
           </HistoryAutoRecorderDef>
         </value>
@@ -497,7 +497,7 @@
             <graphColor>
               <!--Blue -->(0.376, 0.819, 0.941, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
-            <workerClass>MoreGraphs.Power.HistoryAutoRecorderWorker_MoreGraphs_Research_Spacer</workerClass>
+            <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Spacer</workerClass>
             <graphLabelY>points</graphLabelY>
           </HistoryAutoRecorderDef>
         </value>
@@ -511,7 +511,7 @@
             <graphColor>
               <!--Red -->(0.95, 0.01, 0.01, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
-            <workerClass>MoreGraphs.Power.HistoryAutoRecorderWorker_MoreGraphs_Research_Ultra</workerClass>
+            <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Ultra</workerClass>
             <graphLabelY>points</graphLabelY>
           </HistoryAutoRecorderDef>
         </value>
@@ -525,8 +525,94 @@
             <graphColor>
               <!--Purple -->(0.745, 0.658, 1, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
-            <workerClass>MoreGraphs.Power.HistoryAutoRecorderWorker_MoreGraphs_Research_Archotech</workerClass>
+            <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Archotech</workerClass>
             <graphLabelY>points</graphLabelY>
+          </HistoryAutoRecorderDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <HistoryAutoRecorderGroupDef>
+            <defName>MoreGraphs_Weather</defName>
+            <label>Weather</label>
+            <historyAutoRecorderDefs>
+              <li>MoreGraphs_Environment_TemperaturePlus</li>
+              <li>MoreGraphs_Environment_TemperatureMinus</li>
+              <li>MoreGraphs_Environment_Rain</li>
+              <li>MoreGraphs_Environment_Snow</li>
+              <li>MoreGraphs_Environment_Wind</li>
+            </historyAutoRecorderDefs>
+          </HistoryAutoRecorderGroupDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <HistoryAutoRecorderDef>
+            <defName>MoreGraphs_Environment_TemperaturePlus</defName>
+            <label>Temperature (+)</label>
+            <graphColor>
+              <!--Red -->(0.95, 0.01, 0.01, 1)</graphColor>
+            <recordTicksFrequency>1000</recordTicksFrequency>
+            <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_TemperaturePlus</workerClass>
+            <graphLabelY>degrees</graphLabelY>
+          </HistoryAutoRecorderDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <HistoryAutoRecorderDef>
+            <defName>MoreGraphs_Environment_TemperatureMinus</defName>
+            <label>Temperature (-)</label>
+            <graphColor>
+              <!--Blue -->(0.376, 0.819, 0.941, 1)</graphColor>
+            <recordTicksFrequency>1000</recordTicksFrequency>
+            <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_TemperatureMinus</workerClass>
+            <graphLabelY>degrees</graphLabelY>
+          </HistoryAutoRecorderDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <HistoryAutoRecorderDef>
+            <defName>MoreGraphs_Environment_Rain</defName>
+            <label>Rain</label>
+            <graphColor>
+              <!--Orange -->(0.878, 0.462, 0.184, 1)</graphColor>
+            <recordTicksFrequency>1000</recordTicksFrequency>
+            <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_Rain</workerClass>
+            <graphLabelY>percent</graphLabelY>
+          </HistoryAutoRecorderDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <HistoryAutoRecorderDef>
+            <defName>MoreGraphs_Environment_Snow</defName>
+            <label>Snow</label>
+            <graphColor>
+              <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
+            <recordTicksFrequency>1000</recordTicksFrequency>
+            <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_Snow</workerClass>
+            <graphLabelY>percent</graphLabelY>
+          </HistoryAutoRecorderDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <HistoryAutoRecorderDef>
+            <defName>MoreGraphs_Environment_Wind</defName>
+            <label>Wind</label>
+            <graphColor>
+              <!--Purple -->(0.745, 0.658, 1, 1)</graphColor>
+            <recordTicksFrequency>1000</recordTicksFrequency>
+            <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_Wind</workerClass>
+            <graphLabelY>amount</graphLabelY>
           </HistoryAutoRecorderDef>
         </value>
       </li>
