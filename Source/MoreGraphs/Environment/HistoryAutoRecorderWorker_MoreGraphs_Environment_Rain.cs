@@ -18,7 +18,7 @@ namespace MoreGraphs.Environment
                 return 0;
             }
 
-            return homeMap.weatherManager.RainRate * 50;
+            return homeMap.weatherManager.SnowRate > 0 ? 0 : homeMap.weatherManager.RainRate * 50;
         }
     }
 }

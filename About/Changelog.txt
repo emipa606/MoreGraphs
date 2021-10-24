@@ -1,5 +1,8 @@
 # Changelog for MoreGraphs
 
+1.0.3.0 - Improved wind and rain code
+
+
 1.0.2.0 - Added weather graphs
 
 

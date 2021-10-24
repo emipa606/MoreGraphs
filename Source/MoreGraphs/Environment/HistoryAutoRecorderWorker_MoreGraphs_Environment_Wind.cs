@@ -18,7 +18,7 @@ namespace MoreGraphs.Environment
                 return 0;
             }
 
-            return homeMap.weatherManager.CurWindSpeedFactor * 10;
+            return homeMap.windManager.WindSpeed * 20;
         }
     }
 }
