@@ -1,13 +1,12 @@
 using RimWorld;
 
-namespace MoreGraphs.Materials
+namespace MoreGraphs.Materials;
+
+internal class
+    HistoryAutoRecorderWorker_MoreGraphs_Materials_Wood : HistoryAutoRecorderWorker_MoreGraphs_ItemCountBase
 {
-    internal class
-        HistoryAutoRecorderWorker_MoreGraphs_Materials_Wood : HistoryAutoRecorderWorker_MoreGraphs_ItemCountBase
+    public HistoryAutoRecorderWorker_MoreGraphs_Materials_Wood()
+        : base(ThingDefOf.WoodLog)
     {
-        public HistoryAutoRecorderWorker_MoreGraphs_Materials_Wood()
-            : base(ThingDefOf.WoodLog)
-        {
-        }
     }
 }

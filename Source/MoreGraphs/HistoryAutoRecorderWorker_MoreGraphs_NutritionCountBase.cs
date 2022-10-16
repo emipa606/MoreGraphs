@@ -1,41 +1,40 @@
 using RimWorld;
 using Verse;
 
-namespace MoreGraphs
+namespace MoreGraphs;
+
+internal class HistoryAutoRecorderWorker_MoreGraphs_NutritionCountBase : HistoryAutoRecorderWorker
 {
-    internal class HistoryAutoRecorderWorker_MoreGraphs_NutritionCountBase : HistoryAutoRecorderWorker
+    private readonly ThingCategoryDef thingCategoryDef;
+
+    public HistoryAutoRecorderWorker_MoreGraphs_NutritionCountBase(ThingCategoryDef thingCategoryDef)
     {
-        private readonly ThingCategoryDef thingCategoryDef;
+        this.thingCategoryDef = thingCategoryDef;
+    }
 
-        public HistoryAutoRecorderWorker_MoreGraphs_NutritionCountBase(ThingCategoryDef thingCategoryDef)
+    public override float PullRecord()
+    {
+        var num = 0f;
+        foreach (var map in Find.Maps)
         {
-            this.thingCategoryDef = thingCategoryDef;
-        }
-
-        public override float PullRecord()
-        {
-            var num = 0f;
-            foreach (var map in Find.Maps)
+            if (!map.IsPlayerHome)
             {
-                if (!map.IsPlayerHome)
+                continue;
+            }
+
+            var allCountedAmounts = map.resourceCounter.AllCountedAmounts;
+            foreach (var item in allCountedAmounts)
+            {
+                if (!item.Key.IsWithinCategory(thingCategoryDef))
                 {
                     continue;
                 }
 
-                var allCountedAmounts = map.resourceCounter.AllCountedAmounts;
-                foreach (var item in allCountedAmounts)
-                {
-                    if (!item.Key.IsWithinCategory(thingCategoryDef))
-                    {
-                        continue;
-                    }
-
-                    var statValueAbstract = item.Key.GetStatValueAbstract(StatDefOf.Nutrition);
-                    num += statValueAbstract * item.Value;
-                }
+                var statValueAbstract = item.Key.GetStatValueAbstract(StatDefOf.Nutrition);
+                num += statValueAbstract * item.Value;
             }
-
-            return num;
         }
+
+        return num;
     }
 }

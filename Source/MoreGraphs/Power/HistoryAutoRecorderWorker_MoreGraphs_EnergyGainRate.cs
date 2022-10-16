@@ -1,27 +1,26 @@
 using RimWorld;
 using Verse;
 
-namespace MoreGraphs.Power
-{
-    public class HistoryAutoRecorderWorker_MoreGraphs_EnergyGainRate : HistoryAutoRecorderWorker
-    {
-        public override float PullRecord()
-        {
-            var num = 0f;
-            foreach (var map in Find.Maps)
-            {
-                if (!map.IsPlayerHome)
-                {
-                    continue;
-                }
+namespace MoreGraphs.Power;
 
-                foreach (var item in map.powerNetManager.AllNetsListForReading)
-                {
-                    num += item.CurrentEnergyGainRate() / CompPower.WattsToWattDaysPerTick;
-                }
+public class HistoryAutoRecorderWorker_MoreGraphs_EnergyGainRate : HistoryAutoRecorderWorker
+{
+    public override float PullRecord()
+    {
+        var num = 0f;
+        foreach (var map in Find.Maps)
+        {
+            if (!map.IsPlayerHome)
+            {
+                continue;
             }
 
-            return num;
+            foreach (var item in map.powerNetManager.AllNetsListForReading)
+            {
+                num += item.CurrentEnergyGainRate() / CompPower.WattsToWattDaysPerTick;
+            }
         }
+
+        return num;
     }
 }

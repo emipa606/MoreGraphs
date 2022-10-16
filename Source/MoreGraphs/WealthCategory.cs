@@ -1,13 +1,12 @@
-namespace MoreGraphs
+namespace MoreGraphs;
+
+public enum WealthCategory
 {
-    public enum WealthCategory
-    {
-        Food,
-        Clothing_Armor,
-        Medical_Drugs,
-        Materials,
-        Weapons,
-        Manufactured,
-        Other
-    }
+    Food,
+    Clothing_Armor,
+    Medical_Drugs,
+    Materials,
+    Weapons,
+    Manufactured,
+    Other
 }

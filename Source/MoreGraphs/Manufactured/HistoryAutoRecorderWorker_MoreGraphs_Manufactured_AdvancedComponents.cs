@@ -1,14 +1,13 @@
 using RimWorld;
 
-namespace MoreGraphs.Manufactured
+namespace MoreGraphs.Manufactured;
+
+internal class
+    HistoryAutoRecorderWorker_MoreGraphs_Manufactured_AdvancedComponents :
+        HistoryAutoRecorderWorker_MoreGraphs_ItemCountBase
 {
-    internal class
-        HistoryAutoRecorderWorker_MoreGraphs_Manufactured_AdvancedComponents :
-            HistoryAutoRecorderWorker_MoreGraphs_ItemCountBase
+    public HistoryAutoRecorderWorker_MoreGraphs_Manufactured_AdvancedComponents()
+        : base(ThingDefOf.ComponentSpacer)
     {
-        public HistoryAutoRecorderWorker_MoreGraphs_Manufactured_AdvancedComponents()
-            : base(ThingDefOf.ComponentSpacer)
-        {
-        }
     }
 }

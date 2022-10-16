@@ -1,38 +1,37 @@
 using RimWorld;
 using Verse;
 
-namespace MoreGraphs
+namespace MoreGraphs;
+
+internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase : HistoryAutoRecorderWorker
 {
-    internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase : HistoryAutoRecorderWorker
+    private readonly ThingCategoryDef thingCategory;
+
+    public HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingCategoryDef thingCategoryDef)
     {
-        private readonly ThingCategoryDef thingCategory;
+        thingCategory = thingCategoryDef;
+    }
 
-        public HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingCategoryDef thingCategoryDef)
+    public override float PullRecord()
+    {
+        var num = 0;
+        foreach (var map in Find.Maps)
         {
-            thingCategory = thingCategoryDef;
-        }
-
-        public override float PullRecord()
-        {
-            var num = 0;
-            foreach (var map in Find.Maps)
+            if (!map.IsPlayerHome)
             {
-                if (!map.IsPlayerHome)
-                {
-                    continue;
-                }
-
-                var allCountedAmounts = map.resourceCounter.AllCountedAmounts;
-                foreach (var key in allCountedAmounts.Keys)
-                {
-                    if (key.IsWithinCategory(thingCategory))
-                    {
-                        num += allCountedAmounts[key];
-                    }
-                }
+                continue;
             }
 
-            return num;
+            var allCountedAmounts = map.resourceCounter.AllCountedAmounts;
+            foreach (var key in allCountedAmounts.Keys)
+            {
+                if (key.IsWithinCategory(thingCategory))
+                {
+                    num += allCountedAmounts[key];
+                }
+            }
         }
+
+        return num;
     }
 }

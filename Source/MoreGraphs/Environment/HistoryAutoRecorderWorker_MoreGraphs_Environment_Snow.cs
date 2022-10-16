@@ -2,23 +2,22 @@ using System.Linq;
 using RimWorld;
 using Verse;
 
-namespace MoreGraphs.Environment
+namespace MoreGraphs.Environment;
+
+internal class
+    HistoryAutoRecorderWorker_MoreGraphs_Environment_Snow : HistoryAutoRecorderWorker
 {
-    internal class
-        HistoryAutoRecorderWorker_MoreGraphs_Environment_Snow : HistoryAutoRecorderWorker
+    public override float PullRecord()
     {
-        public override float PullRecord()
+        var homeMap = Find.Maps.Where(map => map.IsPlayerHome)
+            .OrderByDescending(map => map.wealthWatcher.WealthTotal)
+            .FirstOrDefault();
+
+        if (homeMap == null)
         {
-            var homeMap = Find.Maps.Where(map => map.IsPlayerHome)
-                .OrderByDescending(map => map.wealthWatcher.WealthTotal)
-                .FirstOrDefault();
-
-            if (homeMap == null)
-            {
-                return 0;
-            }
-
-            return homeMap.weatherManager.SnowRate * 50;
+            return 0;
         }
+
+        return homeMap.weatherManager.SnowRate * 50;
     }
 }

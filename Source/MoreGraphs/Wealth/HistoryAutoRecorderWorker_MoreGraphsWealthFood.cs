@@ -1,11 +1,10 @@
-namespace MoreGraphs.Wealth
+namespace MoreGraphs.Wealth;
+
+internal class
+    HistoryAutoRecorderWorker_MoreGraphsWealthFood : HistoryAutoRecorderWorker_MoreGraphsWealthCategoryBase
 {
-    internal class
-        HistoryAutoRecorderWorker_MoreGraphsWealthFood : HistoryAutoRecorderWorker_MoreGraphsWealthCategoryBase
+    public HistoryAutoRecorderWorker_MoreGraphsWealthFood()
+        : base(WealthCategory.Food)
     {
-        public HistoryAutoRecorderWorker_MoreGraphsWealthFood()
-            : base(WealthCategory.Food)
-        {
-        }
     }
 }
