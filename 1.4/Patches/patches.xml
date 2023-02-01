@@ -141,7 +141,7 @@
             <defName>MoreGraphs_Nutrition_Veg</defName>
             <label>Vegetarian</label>
             <graphColor>
-              <!--Pink -->(0.909, 0.482, 0.674, 1)</graphColor>
+              <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
             <workerClass>MoreGraphs.Nutrition.HistoryAutoRecorderWorker_MoreGraphs_NutritionVeg</workerClass>
             <graphLabelY>Nutrition</graphLabelY>
@@ -155,7 +155,7 @@
             <defName>MoreGraphs_Nutrition_Meat</defName>
             <label>Meat</label>
             <graphColor>
-              <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
+              <!--Pink -->(0.909, 0.482, 0.674, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
             <workerClass>MoreGraphs.Nutrition.HistoryAutoRecorderWorker_MoreGraphs_NutritionMeat</workerClass>
             <graphLabelY>Nutrition</graphLabelY>
@@ -328,6 +328,8 @@
               <li>MoreGraphs_Manufactured_AdvancedComponents</li>
               <li>MoreGraphs_Manufactured_Medicine</li>
               <li>MoreGraphs_Manufactured_Drugs</li>
+              <li>MoreGraphs_Manufactured_Drugs_Social</li>
+              <li>MoreGraphs_Manufactured_Drugs_Hard</li>
             </historyAutoRecorderDefs>
           </HistoryAutoRecorderGroupDef>
         </value>
@@ -379,12 +381,40 @@
         <value>
           <HistoryAutoRecorderDef>
             <defName>MoreGraphs_Manufactured_Drugs</defName>
-            <label>Drugs</label>
+            <label>Drugs (total)</label>
             <graphColor>
               <!--Orange -->(0.878, 0.462, 0.184, 1)</graphColor>
             <recordTicksFrequency>6000</recordTicksFrequency>
             <workerClass>MoreGraphs.Manufactured.HistoryAutoRecorderWorker_MoreGraphs_Manufactured_Drugs</workerClass>
             <graphLabelY>Drugs</graphLabelY>
+          </HistoryAutoRecorderDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <HistoryAutoRecorderDef>
+            <defName>MoreGraphs_Manufactured_Drugs_Social</defName>
+            <label>Drugs (social)</label>
+            <graphColor>
+              <!--Teal -->(0.38, 0.95, 1, 1)</graphColor>
+            <recordTicksFrequency>6000</recordTicksFrequency>
+            <workerClass>MoreGraphs.Manufactured.HistoryAutoRecorderWorker_MoreGraphs_Manufactured_Drugs_Social</workerClass>
+            <graphLabelY>Drugs (social)</graphLabelY>
+          </HistoryAutoRecorderDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <HistoryAutoRecorderDef>
+            <defName>MoreGraphs_Manufactured_Drugs_Hard</defName>
+            <label>Drugs (hard)</label>
+            <graphColor>
+              <!--Red -->(0.95, 0.01, 0.01, 1)</graphColor>
+            <recordTicksFrequency>6000</recordTicksFrequency>
+            <workerClass>MoreGraphs.Manufactured.HistoryAutoRecorderWorker_MoreGraphs_Manufactured_Drugs_Hard</workerClass>
+            <graphLabelY>Drugs (hard)</graphLabelY>
           </HistoryAutoRecorderDef>
         </value>
       </li>

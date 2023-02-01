@@ -1,15 +1,15 @@
 using RimWorld;
 using Verse;
 
-namespace MoreGraphs;
+namespace MoreGraphs.Manufactured;
 
-internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase : HistoryAutoRecorderWorker
+internal class
+    HistoryAutoRecorderWorker_MoreGraphs_Manufactured_Drugs_Hard :
+        HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase
 {
-    public readonly ThingCategoryDef thingCategory;
-
-    public HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingCategoryDef thingCategoryDef)
+    public HistoryAutoRecorderWorker_MoreGraphs_Manufactured_Drugs_Hard()
+        : base(ThingCategoryDefOf.Drugs)
     {
-        thingCategory = thingCategoryDef;
     }
 
     public override float PullRecord()
@@ -25,7 +25,7 @@ internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase : Hist
             var allCountedAmounts = map.resourceCounter.AllCountedAmounts;
             foreach (var key in allCountedAmounts.Keys)
             {
-                if (key.IsWithinCategory(thingCategory))
+                if (key.IsWithinCategory(thingCategory) && key.ingestible.drugCategory == DrugCategory.Hard)
                 {
                     num += allCountedAmounts[key];
                 }

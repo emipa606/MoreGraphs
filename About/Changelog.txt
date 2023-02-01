@@ -1,5 +1,8 @@
 # Changelog for MoreGraphs
 
+1.4.2 - Swapped meat and veg. colors for clarity. Added drugs (hard) and drugs (social) graphs
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
