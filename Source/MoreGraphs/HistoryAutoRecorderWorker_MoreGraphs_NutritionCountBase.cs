@@ -3,15 +3,9 @@ using Verse;
 
 namespace MoreGraphs;
 
-internal class HistoryAutoRecorderWorker_MoreGraphs_NutritionCountBase : HistoryAutoRecorderWorker
+internal class HistoryAutoRecorderWorker_MoreGraphs_NutritionCountBase(ThingCategoryDef thingCategoryDef)
+    : HistoryAutoRecorderWorker
 {
-    private readonly ThingCategoryDef thingCategoryDef;
-
-    public HistoryAutoRecorderWorker_MoreGraphs_NutritionCountBase(ThingCategoryDef thingCategoryDef)
-    {
-        this.thingCategoryDef = thingCategoryDef;
-    }
-
     public override float PullRecord()
     {
         var num = 0f;

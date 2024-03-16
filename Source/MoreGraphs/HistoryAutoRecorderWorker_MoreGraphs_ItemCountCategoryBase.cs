@@ -3,14 +3,10 @@ using Verse;
 
 namespace MoreGraphs;
 
-internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase : HistoryAutoRecorderWorker
+internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingCategoryDef thingCategoryDef)
+    : HistoryAutoRecorderWorker
 {
-    public readonly ThingCategoryDef thingCategory;
-
-    public HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingCategoryDef thingCategoryDef)
-    {
-        thingCategory = thingCategoryDef;
-    }
+    public readonly ThingCategoryDef thingCategory = thingCategoryDef;
 
     public override float PullRecord()
     {

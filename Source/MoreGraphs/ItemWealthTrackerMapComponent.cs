@@ -78,9 +78,9 @@ public class ItemWealthTrackerMapComponent : MapComponent
     {
         while (thingCategoryDef != null)
         {
-            if (thingCategoryMap.ContainsKey(thingCategoryDef.defName))
+            if (thingCategoryMap.TryGetValue(thingCategoryDef.defName, out var category))
             {
-                return thingCategoryMap[thingCategoryDef.defName];
+                return category;
             }
 
             thingCategoryDef = thingCategoryDef.parent;

@@ -3,15 +3,8 @@ using Verse;
 
 namespace MoreGraphs;
 
-internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountBase : HistoryAutoRecorderWorker
+internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountBase(ThingDef thingDef) : HistoryAutoRecorderWorker
 {
-    private readonly ThingDef thingDef;
-
-    public HistoryAutoRecorderWorker_MoreGraphs_ItemCountBase(ThingDef thingDef)
-    {
-        this.thingDef = thingDef;
-    }
-
     public override float PullRecord()
     {
         var num = 0;

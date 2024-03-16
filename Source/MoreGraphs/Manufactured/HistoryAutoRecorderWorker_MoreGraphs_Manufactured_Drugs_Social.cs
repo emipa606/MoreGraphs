@@ -4,14 +4,9 @@ using Verse;
 namespace MoreGraphs.Manufactured;
 
 internal class
-    HistoryAutoRecorderWorker_MoreGraphs_Manufactured_Drugs_Social :
-        HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase
+    HistoryAutoRecorderWorker_MoreGraphs_Manufactured_Drugs_Social() :
+    HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingCategoryDefOf.Drugs)
 {
-    public HistoryAutoRecorderWorker_MoreGraphs_Manufactured_Drugs_Social()
-        : base(ThingCategoryDefOf.Drugs)
-    {
-    }
-
     public override float PullRecord()
     {
         var num = 0;

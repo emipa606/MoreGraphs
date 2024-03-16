@@ -3,15 +3,9 @@ using Verse;
 
 namespace MoreGraphs;
 
-internal class HistoryAutoRecorderWorker_MoreGraphsWealthCategoryBase : HistoryAutoRecorderWorker
+internal class HistoryAutoRecorderWorker_MoreGraphsWealthCategoryBase(WealthCategory wealthCategory)
+    : HistoryAutoRecorderWorker
 {
-    private readonly WealthCategory wealthCategory;
-
-    public HistoryAutoRecorderWorker_MoreGraphsWealthCategoryBase(WealthCategory wealthCategory)
-    {
-        this.wealthCategory = wealthCategory;
-    }
-
     public override float PullRecord()
     {
         var num = 0f;
