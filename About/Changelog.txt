@@ -1,5 +1,8 @@
 # Changelog for MoreGraphs
 
+1.5.2 - Updated spanish translation, thanks Ferchu
+
+
 1.5.1 - Should no longer trigger errors regarding drug-production
 
 

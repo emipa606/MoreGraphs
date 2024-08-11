@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!--<defName>MoreGraphs_Wealth</defName>-->
   <!-- <MoreGraphs_Wealth.label>Riqueza - Objetos</MoreGraphs_Wealth.label> -->
@@ -60,4 +60,15 @@
   <MoreGraphs_Engergy_Gain_Rate.label>Exceso de energía</MoreGraphs_Engergy_Gain_Rate.label>
   <!--<defName>MoreGraphs_Stored_Energy</defName>-->
   <MoreGraphs_Stored_Energy.label>Energía almacenada</MoreGraphs_Stored_Energy.label>
+  <MoreGraphs_Research_Neolithic.label>Edad de Piedra</MoreGraphs_Research_Neolithic.label>
+  <MoreGraphs_Research_Medieval.label>Edad Media</MoreGraphs_Research_Medieval.label>
+  <MoreGraphs_Research_Industrial.label>Era Industrial</MoreGraphs_Research_Industrial.label>
+  <MoreGraphs_Research_Spacer.label>Era Espacial</MoreGraphs_Research_Spacer.label>
+  <MoreGraphs_Research_Ultra.label>Era Ultra</MoreGraphs_Research_Ultra.label>
+  <MoreGraphs_Research_Archotech.label>Era Arcotécnica</MoreGraphs_Research_Archotech.label>
+  <MoreGraphs_Environment_TemperaturePlus.label>Temperatura (+)</MoreGraphs_Environment_TemperaturePlus.label>
+  <MoreGraphs_Environment_TemperatureMinus.label>Temperatura (-)</MoreGraphs_Environment_TemperatureMinus.label>
+  <MoreGraphs_Environment_Rain.label>Lluvia</MoreGraphs_Environment_Rain.label>
+  <MoreGraphs_Environment_Snow.label>Nieve</MoreGraphs_Environment_Snow.label>
+  <MoreGraphs_Environment_Wind.label>Viento</MoreGraphs_Environment_Wind.label>
 </LanguageData>

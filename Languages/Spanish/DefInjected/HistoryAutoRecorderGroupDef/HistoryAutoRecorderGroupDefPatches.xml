@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!--<defName>MoreGraphs_Wealth</defName>-->
   <MoreGraphs_Wealth.label>Riqueza - Objetos</MoreGraphs_Wealth.label>
@@ -12,4 +12,6 @@
   <MoreGraphs_Manufactured.label>Manufacturado</MoreGraphs_Manufactured.label>
   <!--<defName>MoreGraphs_Power</defName>-->
   <MoreGraphs_Power.label>Energía</MoreGraphs_Power.label>
+  <MoreGraphs_Research.label>Tecnología</MoreGraphs_Research.label>
+  <MoreGraphs_Weather.label>Clima</MoreGraphs_Weather.label>
 </LanguageData>

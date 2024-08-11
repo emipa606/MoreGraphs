@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>More Graphs</name>
   <author>natbob1</author>
@@ -9,33 +9,33 @@
   <packageId>natbob1.moregraphs</packageId>
   <description>Adds more graphs to the History tab including an item wealth breakdown, food breakdown, power usage, and item counts.
 
-&lt;size=24&gt;Graphs&lt;/size&gt;
+&lt;size=24>Graphs&lt;/size>
 
-&lt;size=18&gt;Item Wealth Breakdown&lt;/size&gt;
+&lt;size=18>Item Wealth Breakdown&lt;/size>
 
 Shows a breakdown of your colony's wealth from items. Includes the categories Materials, Manufactured, Food, Medical / Drugs, Apparel, and Weapons. 
 
-&lt;size=18&gt;Food Breakdown&lt;/size&gt;
+&lt;size=18>Food Breakdown&lt;/size>
 
 Shows a breakdown of stored food by nutrition.  Includes the categories Vegetarian, Meat, Animal Products, and Meals.
 
-&lt;size=18&gt;Power Usage&lt;/size&gt;
+&lt;size=18>Power Usage&lt;/size>
 
 Shows excess energy and stored energy over time.
 
-&lt;size=18&gt;Materials&lt;/size&gt;
+&lt;size=18>Materials&lt;/size>
 
 Shows counts of Wood, Steel, Plasteel, Uranium, Gold, and Jade over time.
 
-&lt;size=18&gt;Manufactured&lt;/size&gt;
+&lt;size=18>Manufactured&lt;/size>
 
 Shows counts of Components, Advanced Components, Medicine, and Drugs over time.
 
-&lt;size=18&gt;Silver&lt;/size&gt;
+&lt;size=18>Silver&lt;/size>
 
 Shows your siver reserves over time.
 
-&lt;size=24&gt;Notes&lt;/size&gt;
+&lt;size=24>Notes&lt;/size>
 
 This mod is compatible with existing saves.
 This mod can safely be removed from a save.</description>
