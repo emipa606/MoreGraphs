@@ -9,6 +9,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1966250412
 - Added research-graph, points researched per tech-level
 - Added weather graphs, based on the main player map
 - Added separate social and hard drugs data
+- Updated spanish translation, thanks Ferchu
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 	
@@ -51,6 +52,6 @@ This mod can safely be removed from a save.
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-[![Image](https://img.shields.io/github/v/release/emipa606/MoreGraphs?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2606523977)
+[![Image](https://img.shields.io/github/v/release/emipa606/MoreGraphs?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2606523977) | tags:  graphs,  data

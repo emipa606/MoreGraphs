@@ -1,5 +1,8 @@
 # Changelog for MoreGraphs
 
+1.5.3 - Meals and total food had the same counter
+
+
 1.5.2 - Updated spanish translation, thanks Ferchu
 
 
