@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="MoreGraphs/MoreGraphs.csproj" />
+</Solution>

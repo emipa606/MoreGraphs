@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HistoryAutoRecorderGroupDef>
+    <defName>MoreGraphs_SmallMaterials</defName>
+    <label>Small Materials</label>
+    <historyAutoRecorderDefs>
+      <li>MoreGraphs_SmallMaterials_Gold</li>
+      <li>MoreGraphs_SmallMaterials_Jade</li>
+      <li>MoreGraphs_SmallMaterials_Silver</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_SmallMaterials_Gold</defName>
+    <label>Gold</label>
+    <graphColor>
+      <!--Blue -->(0.376, 0.819, 0.941, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.SnallMaterials.HistoryAutoRecorderWorker_MoreGraphs_SmallMaterials_Gold</workerClass>
+    <graphLabelY>Gold</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_SmallMaterials_Silver</defName>
+    <label>Silver</label>
+    <graphColor>
+      <!--Yellow -->(0.819, 0.796, 0.231, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.SnallMaterials.HistoryAutoRecorderWorker_MoreGraphs_SmallMaterials_Silver</workerClass>
+    <graphLabelY>Silver</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_SmallMaterials_Jade</defName>
+    <label>Jade</label>
+    <graphColor>
+      <!--Purple -->(0.745, 0.658, 1, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.SnallMaterials.HistoryAutoRecorderWorker_MoreGraphs_SmallMaterials_Jade</workerClass>
+    <graphLabelY>Jade</graphLabelY>
+  </HistoryAutoRecorderDef>
+</Defs>

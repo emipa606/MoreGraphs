@@ -1,5 +1,9 @@
 # Changelog for MoreGraphs
 
+1.5.4 - Added wealth per capita graph
+Moved all defs from being added via patch to regular defs
+
+
 1.5.3 - Meals and total food had the same counter
 
 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HistoryAutoRecorderGroupDef>
+    <defName>MoreGraphs_Research</defName>
+    <label>Research</label>
+    <historyAutoRecorderDefs>
+      <li>MoreGraphs_Research_Neolithic</li>
+      <li>MoreGraphs_Research_Medieval</li>
+      <li>MoreGraphs_Research_Industrial</li>
+      <li>MoreGraphs_Research_Spacer</li>
+      <li>MoreGraphs_Research_Ultra</li>
+      <li>MoreGraphs_Research_Archotech</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Research_Neolithic</defName>
+    <label>Neolithic</label>
+    <graphColor>
+      <!--Pink -->(0.909, 0.482, 0.674, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Neolithic</workerClass>
+    <graphLabelY>points</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Research_Medieval</defName>
+    <label>Medieval</label>
+    <graphColor>
+      <!--Orange -->(0.878, 0.462, 0.184, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Medieval</workerClass>
+    <graphLabelY>points</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Research_Industrial</defName>
+    <label>Industrial</label>
+    <graphColor>
+      <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Industrial</workerClass>
+    <graphLabelY>points</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Research_Spacer</defName>
+    <label>Spacer</label>
+    <graphColor>
+      <!--Blue -->(0.376, 0.819, 0.941, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Spacer</workerClass>
+    <graphLabelY>points</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Research_Ultra</defName>
+    <label>Ultra</label>
+    <graphColor>
+      <!--Red -->(0.95, 0.01, 0.01, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Ultra</workerClass>
+    <graphLabelY>points</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Research_Archotech</defName>
+    <label>Archotech</label>
+    <graphColor>
+      <!--Purple -->(0.745, 0.658, 1, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Research.HistoryAutoRecorderWorker_MoreGraphs_Research_Archotech</workerClass>
+    <graphLabelY>points</graphLabelY>
+  </HistoryAutoRecorderDef>
+</Defs>
