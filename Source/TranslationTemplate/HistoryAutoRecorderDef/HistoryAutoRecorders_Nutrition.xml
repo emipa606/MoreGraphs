@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Animal Products -->
+  <MoreGraphs_Nutrition_AnimalProd.label>Animal Products</MoreGraphs_Nutrition_AnimalProd.label>
+  <!-- EN: Nutrition -->
+  <MoreGraphs_Nutrition_AnimalProd.graphLabelY>Nutrition</MoreGraphs_Nutrition_AnimalProd.graphLabelY>
+  <!-- EN: Meals -->
+  <MoreGraphs_Nutrition_Meals.label>Meals</MoreGraphs_Nutrition_Meals.label>
+  <!-- EN: Nutrition -->
+  <MoreGraphs_Nutrition_Meals.graphLabelY>Nutrition</MoreGraphs_Nutrition_Meals.graphLabelY>
+  <!-- EN: Meat -->
+  <MoreGraphs_Nutrition_Meat.label>Meat</MoreGraphs_Nutrition_Meat.label>
+  <!-- EN: Nutrition -->
+  <MoreGraphs_Nutrition_Meat.graphLabelY>Nutrition</MoreGraphs_Nutrition_Meat.graphLabelY>
+  <!-- EN: Total -->
+  <MoreGraphs_Nutrition_Total.label>Total</MoreGraphs_Nutrition_Total.label>
+  <!-- EN: Nutrition -->
+  <MoreGraphs_Nutrition_Total.graphLabelY>Nutrition</MoreGraphs_Nutrition_Total.graphLabelY>
+  <!-- EN: Vegetarian -->
+  <MoreGraphs_Nutrition_Veg.label>Vegetarian</MoreGraphs_Nutrition_Veg.label>
+  <!-- EN: Nutrition -->
+  <MoreGraphs_Nutrition_Veg.graphLabelY>Nutrition</MoreGraphs_Nutrition_Veg.graphLabelY>
+</LanguageData>

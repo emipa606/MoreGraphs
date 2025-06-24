@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using RimWorld;
 using Verse;
 
@@ -20,7 +19,7 @@ public class HistoryAutoRecorderWorker_WealthPerCapita : HistoryAutoRecorderWork
         }
 
         var colonistCount =
-            Math.Max(PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists_NoLodgers.Count(), 1);
+            Math.Max(PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_FreeColonists_NoLodgers.Count, 1);
 
         return total / colonistCount;
     }

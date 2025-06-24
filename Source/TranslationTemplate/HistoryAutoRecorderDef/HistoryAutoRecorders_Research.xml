@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Archotech -->
+  <MoreGraphs_Research_Archotech.label>Archotech</MoreGraphs_Research_Archotech.label>
+  <!-- EN: points -->
+  <MoreGraphs_Research_Archotech.graphLabelY>points</MoreGraphs_Research_Archotech.graphLabelY>
+  <!-- EN: Industrial -->
+  <MoreGraphs_Research_Industrial.label>Industrial</MoreGraphs_Research_Industrial.label>
+  <!-- EN: points -->
+  <MoreGraphs_Research_Industrial.graphLabelY>points</MoreGraphs_Research_Industrial.graphLabelY>
+  <!-- EN: Medieval -->
+  <MoreGraphs_Research_Medieval.label>Medieval</MoreGraphs_Research_Medieval.label>
+  <!-- EN: points -->
+  <MoreGraphs_Research_Medieval.graphLabelY>points</MoreGraphs_Research_Medieval.graphLabelY>
+  <!-- EN: Neolithic -->
+  <MoreGraphs_Research_Neolithic.label>Neolithic</MoreGraphs_Research_Neolithic.label>
+  <!-- EN: points -->
+  <MoreGraphs_Research_Neolithic.graphLabelY>points</MoreGraphs_Research_Neolithic.graphLabelY>
+  <!-- EN: Spacer -->
+  <MoreGraphs_Research_Spacer.label>Spacer</MoreGraphs_Research_Spacer.label>
+  <!-- EN: points -->
+  <MoreGraphs_Research_Spacer.graphLabelY>points</MoreGraphs_Research_Spacer.graphLabelY>
+  <!-- EN: Ultra -->
+  <MoreGraphs_Research_Ultra.label>Ultra</MoreGraphs_Research_Ultra.label>
+  <!-- EN: points -->
+  <MoreGraphs_Research_Ultra.graphLabelY>points</MoreGraphs_Research_Ultra.graphLabelY>
+</LanguageData>

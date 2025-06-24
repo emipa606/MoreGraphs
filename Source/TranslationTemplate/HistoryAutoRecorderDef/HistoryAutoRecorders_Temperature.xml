@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Rain -->
+  <MoreGraphs_Environment_Rain.label>Rain</MoreGraphs_Environment_Rain.label>
+  <!-- EN: percent -->
+  <MoreGraphs_Environment_Rain.graphLabelY>percent</MoreGraphs_Environment_Rain.graphLabelY>
+  <!-- EN: Snow -->
+  <MoreGraphs_Environment_Snow.label>Snow</MoreGraphs_Environment_Snow.label>
+  <!-- EN: percent -->
+  <MoreGraphs_Environment_Snow.graphLabelY>percent</MoreGraphs_Environment_Snow.graphLabelY>
+  <!-- EN: Temperature (-) -->
+  <MoreGraphs_Environment_TemperatureMinus.label>Temperature (-)</MoreGraphs_Environment_TemperatureMinus.label>
+  <!-- EN: degrees -->
+  <MoreGraphs_Environment_TemperatureMinus.graphLabelY>degrees</MoreGraphs_Environment_TemperatureMinus.graphLabelY>
+  <!-- EN: Temperature (+) -->
+  <MoreGraphs_Environment_TemperaturePlus.label>Temperature (+)</MoreGraphs_Environment_TemperaturePlus.label>
+  <!-- EN: degrees -->
+  <MoreGraphs_Environment_TemperaturePlus.graphLabelY>degrees</MoreGraphs_Environment_TemperaturePlus.graphLabelY>
+  <!-- EN: Wind -->
+  <MoreGraphs_Environment_Wind.label>Wind</MoreGraphs_Environment_Wind.label>
+  <!-- EN: amount -->
+  <MoreGraphs_Environment_Wind.graphLabelY>amount</MoreGraphs_Environment_Wind.graphLabelY>
+</LanguageData>

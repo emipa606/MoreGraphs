@@ -20,7 +20,7 @@ internal class
             var allCountedAmounts = map.resourceCounter.AllCountedAmounts;
             foreach (var key in allCountedAmounts.Keys)
             {
-                if (key.IsWithinCategory(thingCategory) && key.IsIngestible &&
+                if (key.IsWithinCategory(ThingCategory) && key.IsIngestible &&
                     key.ingestible?.drugCategory == DrugCategory.Hard)
                 {
                     num += allCountedAmounts[key];

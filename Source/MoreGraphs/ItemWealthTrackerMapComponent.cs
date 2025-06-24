@@ -5,38 +5,32 @@ using Verse;
 
 namespace MoreGraphs;
 
-public class ItemWealthTrackerMapComponent : MapComponent
+public class ItemWealthTrackerMapComponent(Map map) : MapComponent(map)
 {
-    private const int cacheTickInterval = 5000;
-    private readonly Dictionary<string, WealthCategory> thingCategoryMap;
+    private const int CacheTickInterval = 5000;
+    private readonly Dictionary<string, WealthCategory> thingCategoryMap = getThingCategoryMap();
 
     private int lastUpdatedTick = -100000;
 
     private Dictionary<WealthCategory, float> latestItemWealthByCategory;
 
-    public ItemWealthTrackerMapComponent(Map map)
-        : base(map)
-    {
-        thingCategoryMap = GetThingCategoyMap();
-    }
-
     public Dictionary<WealthCategory, float> ItemWealthByCategory
     {
         get
         {
-            if (Find.TickManager.TicksGame - lastUpdatedTick <= 5000)
+            if (Find.TickManager.TicksGame - lastUpdatedTick <= CacheTickInterval)
             {
                 return latestItemWealthByCategory;
             }
 
             lastUpdatedTick = Find.TickManager.TicksGame;
-            latestItemWealthByCategory = GetWealthByCategory();
+            latestItemWealthByCategory = getWealthByCategory();
 
             return latestItemWealthByCategory;
         }
     }
 
-    private Dictionary<WealthCategory, float> GetWealthByCategory()
+    private Dictionary<WealthCategory, float> getWealthByCategory()
     {
         var dictionary = new Dictionary<WealthCategory, float>();
         foreach (WealthCategory value in Enum.GetValues(typeof(WealthCategory)))
@@ -48,18 +42,8 @@ public class ItemWealthTrackerMapComponent : MapComponent
         ThingOwnerUtility.GetAllThingsRecursively(map, ThingRequest.ForGroup(ThingRequestGroup.HaulableEver), list,
             false, delegate(IThingHolder thingHolder)
             {
-                var result = true;
-                if (thingHolder is PassingShip)
-                {
-                    result = false;
-                }
-                else
-                {
-                    if (thingHolder is Pawn pawn && pawn.Faction != Faction.OfPlayer)
-                    {
-                        result = false;
-                    }
-                }
+                var result = !(thingHolder is PassingShip ||
+                               thingHolder is Pawn pawn && pawn.Faction != Faction.OfPlayer);
 
                 return result;
             });
@@ -67,14 +51,14 @@ public class ItemWealthTrackerMapComponent : MapComponent
         {
             if (item.SpawnedOrAnyParentSpawned && !item.PositionHeld.Fogged(map))
             {
-                dictionary[GetWealthCategory(item.def.FirstThingCategory)] += item.MarketValue * item.stackCount;
+                dictionary[getWealthCategory(item.def.FirstThingCategory)] += item.MarketValue * item.stackCount;
             }
         }
 
         return dictionary;
     }
 
-    private WealthCategory GetWealthCategory(ThingCategoryDef thingCategoryDef)
+    private WealthCategory getWealthCategory(ThingCategoryDef thingCategoryDef)
     {
         while (thingCategoryDef != null)
         {
@@ -89,7 +73,7 @@ public class ItemWealthTrackerMapComponent : MapComponent
         return WealthCategory.Other;
     }
 
-    private Dictionary<string, WealthCategory> GetThingCategoyMap()
+    private static Dictionary<string, WealthCategory> getThingCategoryMap()
     {
         return new Dictionary<string, WealthCategory>
         {

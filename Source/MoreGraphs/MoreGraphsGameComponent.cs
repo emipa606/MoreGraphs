@@ -12,10 +12,10 @@ public class MoreGraphsGameComponent : GameComponent
     public override void LoadedGame()
     {
         base.LoadedGame();
-        FixHistoryRecorderGroups();
+        fixHistoryRecorderGroups();
     }
 
-    private void FixHistoryRecorderGroups()
+    private static void fixHistoryRecorderGroups()
     {
         var num = 0;
         foreach (var item in Find.History.Groups())

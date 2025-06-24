@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HistoryAutoRecorderGroupDef>
+    <defName>MoreGraphs_Materials</defName>
+    <label>Materials</label>
+    <historyAutoRecorderDefs>
+      <li>MoreGraphs_Materials_Wood</li>
+      <li>MoreGraphs_Materials_Steel</li>
+      <li>MoreGraphs_Materials_Plasteel</li>
+      <li>MoreGraphs_Materials_Uranium</li>
+      <li>MoreGraphs_SmallMaterials_Gold</li>
+      <li>MoreGraphs_SmallMaterials_Jade</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Materials_Wood</defName>
+    <label>Wood</label>
+    <graphColor>
+      <!--Yellow -->(0.819, 0.796, 0.231, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Materials.HistoryAutoRecorderWorker_MoreGraphs_Materials_Wood</workerClass>
+    <graphLabelY>Wood</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Materials_Steel</defName>
+    <label>Steel</label>
+    <graphColor>
+      <!--Pink -->(0.909, 0.482, 0.674, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Materials.HistoryAutoRecorderWorker_MoreGraphs_Materials_Steel</workerClass>
+    <graphLabelY>Steel</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Materials_Plasteel</defName>
+    <label>Plasteel</label>
+    <graphColor>
+      <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Materials.HistoryAutoRecorderWorker_MoreGraphs_Materials_Plasteel</workerClass>
+    <graphLabelY>Plasteel</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Materials_Uranium</defName>
+    <label>Uranium</label>
+    <graphColor>
+      <!--Orange -->(0.878, 0.462, 0.184, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Materials.HistoryAutoRecorderWorker_MoreGraphs_Materials_Uranium</workerClass>
+    <graphLabelY>Uranium</graphLabelY>
+  </HistoryAutoRecorderDef>
+</Defs>

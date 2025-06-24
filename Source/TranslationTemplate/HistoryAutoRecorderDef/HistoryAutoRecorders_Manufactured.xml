@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Adv. Components -->
+  <MoreGraphs_Manufactured_AdvancedComponents.label>Adv. Components</MoreGraphs_Manufactured_AdvancedComponents.label>
+  <!-- EN: Adv. Components -->
+  <MoreGraphs_Manufactured_AdvancedComponents.graphLabelY>Adv. Components</MoreGraphs_Manufactured_AdvancedComponents.graphLabelY>
+  <!-- EN: Components -->
+  <MoreGraphs_Manufactured_Components.label>Components</MoreGraphs_Manufactured_Components.label>
+  <!-- EN: Components -->
+  <MoreGraphs_Manufactured_Components.graphLabelY>Components</MoreGraphs_Manufactured_Components.graphLabelY>
+  <!-- EN: Drugs (total) -->
+  <MoreGraphs_Manufactured_Drugs.label>Drugs (total)</MoreGraphs_Manufactured_Drugs.label>
+  <!-- EN: Drugs -->
+  <MoreGraphs_Manufactured_Drugs.graphLabelY>Drugs</MoreGraphs_Manufactured_Drugs.graphLabelY>
+  <!-- EN: Drugs (hard) -->
+  <MoreGraphs_Manufactured_Drugs_Hard.label>Drugs (hard)</MoreGraphs_Manufactured_Drugs_Hard.label>
+  <!-- EN: Drugs (hard) -->
+  <MoreGraphs_Manufactured_Drugs_Hard.graphLabelY>Drugs (hard)</MoreGraphs_Manufactured_Drugs_Hard.graphLabelY>
+  <!-- EN: Drugs (social) -->
+  <MoreGraphs_Manufactured_Drugs_Social.label>Drugs (social)</MoreGraphs_Manufactured_Drugs_Social.label>
+  <!-- EN: Drugs (social) -->
+  <MoreGraphs_Manufactured_Drugs_Social.graphLabelY>Drugs (social)</MoreGraphs_Manufactured_Drugs_Social.graphLabelY>
+  <!-- EN: Medicine (all types) -->
+  <MoreGraphs_Manufactured_Medicine.label>Medicine (all types)</MoreGraphs_Manufactured_Medicine.label>
+  <!-- EN: Medicine -->
+  <MoreGraphs_Manufactured_Medicine.graphLabelY>Medicine</MoreGraphs_Manufactured_Medicine.graphLabelY>
+</LanguageData>

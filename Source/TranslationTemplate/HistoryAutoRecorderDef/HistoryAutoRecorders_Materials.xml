@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Plasteel -->
+  <MoreGraphs_Materials_Plasteel.label>Plasteel</MoreGraphs_Materials_Plasteel.label>
+  <!-- EN: Plasteel -->
+  <MoreGraphs_Materials_Plasteel.graphLabelY>Plasteel</MoreGraphs_Materials_Plasteel.graphLabelY>
+  <!-- EN: Steel -->
+  <MoreGraphs_Materials_Steel.label>Steel</MoreGraphs_Materials_Steel.label>
+  <!-- EN: Steel -->
+  <MoreGraphs_Materials_Steel.graphLabelY>Steel</MoreGraphs_Materials_Steel.graphLabelY>
+  <!-- EN: Uranium -->
+  <MoreGraphs_Materials_Uranium.label>Uranium</MoreGraphs_Materials_Uranium.label>
+  <!-- EN: Uranium -->
+  <MoreGraphs_Materials_Uranium.graphLabelY>Uranium</MoreGraphs_Materials_Uranium.graphLabelY>
+  <!-- EN: Wood -->
+  <MoreGraphs_Materials_Wood.label>Wood</MoreGraphs_Materials_Wood.label>
+  <!-- EN: Wood -->
+  <MoreGraphs_Materials_Wood.graphLabelY>Wood</MoreGraphs_Materials_Wood.graphLabelY>
+</LanguageData>

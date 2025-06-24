@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Apparel -->
+  <MoreGraphs_Wealth_ClothingArmor.label>Apparel</MoreGraphs_Wealth_ClothingArmor.label>
+  <!-- EN: Apparel -->
+  <MoreGraphs_Wealth_ClothingArmor.graphLabelY>Apparel</MoreGraphs_Wealth_ClothingArmor.graphLabelY>
+  <!-- EN: Food -->
+  <MoreGraphs_Wealth_Food.label>Food</MoreGraphs_Wealth_Food.label>
+  <!-- EN: Food -->
+  <MoreGraphs_Wealth_Food.graphLabelY>Food</MoreGraphs_Wealth_Food.graphLabelY>
+  <!-- EN: Manufactured -->
+  <MoreGraphs_Wealth_Manufactured.label>Manufactured</MoreGraphs_Wealth_Manufactured.label>
+  <!-- EN: Manufactured -->
+  <MoreGraphs_Wealth_Manufactured.graphLabelY>Manufactured</MoreGraphs_Wealth_Manufactured.graphLabelY>
+  <!-- EN: Materials -->
+  <MoreGraphs_Wealth_Materials.label>Materials</MoreGraphs_Wealth_Materials.label>
+  <!-- EN: Materials -->
+  <MoreGraphs_Wealth_Materials.graphLabelY>Materials</MoreGraphs_Wealth_Materials.graphLabelY>
+  <!-- EN: Medical / Drugs -->
+  <MoreGraphs_Wealth_MedicalDrugs.label>Medical / Drugs</MoreGraphs_Wealth_MedicalDrugs.label>
+  <!-- EN: Medical / Drugs -->
+  <MoreGraphs_Wealth_MedicalDrugs.graphLabelY>Medical / Drugs</MoreGraphs_Wealth_MedicalDrugs.graphLabelY>
+  <!-- EN: Weapons -->
+  <MoreGraphs_Wealth_Weapons.label>Weapons</MoreGraphs_Wealth_Weapons.label>
+  <!-- EN: Weapons -->
+  <MoreGraphs_Wealth_Weapons.graphLabelY>Weapons</MoreGraphs_Wealth_Weapons.graphLabelY>
+</LanguageData>

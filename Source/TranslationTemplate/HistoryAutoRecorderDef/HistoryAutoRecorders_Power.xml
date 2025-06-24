@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Excess Energy -->
+  <MoreGraphs_Engergy_Gain_Rate.label>Excess Energy</MoreGraphs_Engergy_Gain_Rate.label>
+  <!-- EN: W -->
+  <MoreGraphs_Engergy_Gain_Rate.graphLabelY>W</MoreGraphs_Engergy_Gain_Rate.graphLabelY>
+  <!-- EN: Stored Energy -->
+  <MoreGraphs_Stored_Energy.label>Stored Energy</MoreGraphs_Stored_Energy.label>
+  <!-- EN: Wd -->
+  <MoreGraphs_Stored_Energy.graphLabelY>Wd</MoreGraphs_Stored_Energy.graphLabelY>
+</LanguageData>

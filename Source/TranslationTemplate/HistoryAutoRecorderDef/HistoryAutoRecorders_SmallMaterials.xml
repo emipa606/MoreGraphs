@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Gold -->
+  <MoreGraphs_SmallMaterials_Gold.label>Gold</MoreGraphs_SmallMaterials_Gold.label>
+  <!-- EN: Gold -->
+  <MoreGraphs_SmallMaterials_Gold.graphLabelY>Gold</MoreGraphs_SmallMaterials_Gold.graphLabelY>
+  <!-- EN: Jade -->
+  <MoreGraphs_SmallMaterials_Jade.label>Jade</MoreGraphs_SmallMaterials_Jade.label>
+  <!-- EN: Jade -->
+  <MoreGraphs_SmallMaterials_Jade.graphLabelY>Jade</MoreGraphs_SmallMaterials_Jade.graphLabelY>
+  <!-- EN: Silver -->
+  <MoreGraphs_SmallMaterials_Silver.label>Silver</MoreGraphs_SmallMaterials_Silver.label>
+  <!-- EN: Silver -->
+  <MoreGraphs_SmallMaterials_Silver.graphLabelY>Silver</MoreGraphs_SmallMaterials_Silver.graphLabelY>
+</LanguageData>

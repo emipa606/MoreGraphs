@@ -1,5 +1,8 @@
 # Changelog for MoreGraphs
 
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
 1.5.4 - Added wealth per capita graph
 Moved all defs from being added via patch to regular defs
 

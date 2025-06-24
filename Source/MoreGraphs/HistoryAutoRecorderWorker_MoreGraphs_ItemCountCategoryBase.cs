@@ -6,7 +6,7 @@ namespace MoreGraphs;
 internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingCategoryDef thingCategoryDef)
     : HistoryAutoRecorderWorker
 {
-    public readonly ThingCategoryDef thingCategory = thingCategoryDef;
+    protected readonly ThingCategoryDef ThingCategory = thingCategoryDef;
 
     public override float PullRecord()
     {
@@ -21,7 +21,7 @@ internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingC
             var allCountedAmounts = map.resourceCounter.AllCountedAmounts;
             foreach (var key in allCountedAmounts.Keys)
             {
-                if (key.IsWithinCategory(thingCategory))
+                if (key.IsWithinCategory(ThingCategory))
                 {
                     num += allCountedAmounts[key];
                 }
