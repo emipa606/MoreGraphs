@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--<defName>MoreGraphs_Wealth</defName>-->
+  <!-- <MoreGraphs_Wealth.label>Riqueza - Objetos</MoreGraphs_Wealth.label> -->
+  <!--<defName>MoreGraphs_Wealth_Materials</defName>-->
+  <MoreGraphs_Wealth_Materials.label>Материалы</MoreGraphs_Wealth_Materials.label>
+  <!--<defName>MoreGraphs_Wealth_Manufactured</defName>-->
+  <MoreGraphs_Wealth_Manufactured.label>Изделия</MoreGraphs_Wealth_Manufactured.label>
+  <!--<defName>MoreGraphs_Wealth_Food</defName>-->
+  <MoreGraphs_Wealth_Food.label>Еда</MoreGraphs_Wealth_Food.label>
+  <!--<defName>MoreGraphs_Wealth_MedicalDrugs</defName>-->
+  <MoreGraphs_Wealth_MedicalDrugs.label>Медикаменты/наркотики</MoreGraphs_Wealth_MedicalDrugs.label>
+  <!--<defName>MoreGraphs_Wealth_ClothingArmor</defName>-->
+  <MoreGraphs_Wealth_ClothingArmor.label>Одежда/броня</MoreGraphs_Wealth_ClothingArmor.label>
+  <!--<defName>MoreGraphs_Wealth_Weapons</defName>-->
+  <MoreGraphs_Wealth_Weapons.label>Оружие</MoreGraphs_Wealth_Weapons.label>
+  <!--<defName>MoreGraphs_Nutrition</defName>-->
+  <!-- <MoreGraphs_Nutrition.label>Еда</MoreGraphs_Nutrition.label> -->
+  <!--<defName>MoreGraphs_Nutrition_Total</defName>-->
+  <MoreGraphs_Nutrition_Total.label>Всего еды</MoreGraphs_Nutrition_Total.label>
+  <!--<defName>MoreGraphs_Nutrition_Veg</defName>-->
+  <MoreGraphs_Nutrition_Veg.label>Растительная</MoreGraphs_Nutrition_Veg.label>
+  <!--<defName>MoreGraphs_Nutrition_Meat</defName>-->
+  <MoreGraphs_Nutrition_Meat.label>Мясная</MoreGraphs_Nutrition_Meat.label>
+  <!--<defName>MoreGraphs_Nutrition_AnimalProd</defName>-->
+  <MoreGraphs_Nutrition_AnimalProd.label>Животная продукция</MoreGraphs_Nutrition_AnimalProd.label>
+  <!--<defName>MoreGraphs_Nutrition_Meals</defName>-->
+  <MoreGraphs_Nutrition_Meals.label>Готовые блюда</MoreGraphs_Nutrition_Meals.label>
+  <!--<defName>MoreGraphs_Materials</defName>-->
+  <!-- <MoreGraphs_Materials.label>Материалы</MoreGraphs_Materials.label> -->
+  <!--<defName>MoreGraphs_Materials_Wood</defName>-->
+  <MoreGraphs_Materials_Wood.label>Древесина</MoreGraphs_Materials_Wood.label>
+  <!--<defName>MoreGraphs_Materials_Steel</defName>-->
+  <MoreGraphs_Materials_Steel.label>Сталь</MoreGraphs_Materials_Steel.label>
+  <!--<defName>MoreGraphs_Materials_Plasteel</defName>-->
+  <MoreGraphs_Materials_Plasteel.label>Пласталь</MoreGraphs_Materials_Plasteel.label>
+  <!--<defName>MoreGraphs_Materials_Uranium</defName>-->
+  <MoreGraphs_Materials_Uranium.label>Уран</MoreGraphs_Materials_Uranium.label>
+  <!--<defName>MoreGraphs_SmallMaterials_Gold</defName>-->
+  <MoreGraphs_SmallMaterials_Gold.label>Золото</MoreGraphs_SmallMaterials_Gold.label>
+  <!--<defName>MoreGraphs_SmallMaterials_Jade</defName>-->
+  <MoreGraphs_SmallMaterials_Jade.label>Нефрит</MoreGraphs_SmallMaterials_Jade.label>
+  <!--<defName>MoreGraphs_SmallMaterials</defName>-->
+  <!-- <MoreGraphs_SmallMaterials.label>Драгоценности</MoreGraphs_SmallMaterials.label> -->
+  <!--<defName>MoreGraphs_SmallMaterials_Silver</defName>-->
+  <MoreGraphs_SmallMaterials_Silver.label>Серебро</MoreGraphs_SmallMaterials_Silver.label>
+  <!--<defName>MoreGraphs_Manufactured</defName>-->
+  <!-- <MoreGraphs_Manufactured.label>Изделия</MoreGraphs_Manufactured.label> -->
+  <!--<defName>MoreGraphs_Manufactured_Components</defName>-->
+  <MoreGraphs_Manufactured_Components.label>Компоненты</MoreGraphs_Manufactured_Components.label>
+  <!--<defName>MoreGraphs_Manufactured_AdvancedComponents</defName>-->
+  <MoreGraphs_Manufactured_AdvancedComponents.label>Продвинутые компоненты</MoreGraphs_Manufactured_AdvancedComponents.label>
+  <!--<defName>MoreGraphs_Manufactured_Medicine</defName>-->
+  <MoreGraphs_Manufactured_Medicine.label>Медикаменты</MoreGraphs_Manufactured_Medicine.label>
+  <!--<defName>MoreGraphs_Manufactured_Drugs</defName>-->
+  <MoreGraphs_Manufactured_Drugs.label>Все наркотики</MoreGraphs_Manufactured_Drugs.label>
+  <!--<defName>MoreGraphs_Power</defName>-->
+  <!-- <MoreGraphs_Power.label>Электроэнергия</MoreGraphs_Power.label> -->
+  <!--<defName>MoreGraphs_Engergy_Gain_Rate</defName>-->
+  <MoreGraphs_Engergy_Gain_Rate.label>Энерговыработка</MoreGraphs_Engergy_Gain_Rate.label>
+  <!--<defName>MoreGraphs_Stored_Energy</defName>-->
+  <MoreGraphs_Stored_Energy.label>Энергии запасено</MoreGraphs_Stored_Energy.label>
+  <MoreGraphs_Research_Neolithic.label>Неолитические</MoreGraphs_Research_Neolithic.label>
+  <MoreGraphs_Research_Medieval.label>Средневековые</MoreGraphs_Research_Medieval.label>
+  <MoreGraphs_Research_Industrial.label>Индустриальные</MoreGraphs_Research_Industrial.label>
+  <MoreGraphs_Research_Spacer.label>Космические</MoreGraphs_Research_Spacer.label>
+  <MoreGraphs_Research_Ultra.label>Ультратехнологичные</MoreGraphs_Research_Ultra.label>
+  <MoreGraphs_Research_Archotech.label>Архотехнологичные</MoreGraphs_Research_Archotech.label>
+  <MoreGraphs_Environment_TemperaturePlus.label>Температура (+)</MoreGraphs_Environment_TemperaturePlus.label>
+  <MoreGraphs_Environment_TemperatureMinus.label>Температура (-)</MoreGraphs_Environment_TemperatureMinus.label>
+  <MoreGraphs_Environment_Rain.label>Дождь</MoreGraphs_Environment_Rain.label>
+  <MoreGraphs_Environment_Snow.label>Снег</MoreGraphs_Environment_Snow.label>
+  <MoreGraphs_Environment_Wind.label>Ветер</MoreGraphs_Environment_Wind.label>
+  <MoreGraphs_Manufactured_Drugs_Social.label>Легкие наркотики</MoreGraphs_Manufactured_Drugs_Social.label>
+  <MoreGraphs_Manufactured_Drugs_Hard.label>Тяжелые наркотики</MoreGraphs_Manufactured_Drugs_Hard.label>
+  <MoreGraphs_WealthPerCapita.label>Богатство на колониста</MoreGraphs_WealthPerCapita.label>
+</LanguageData>

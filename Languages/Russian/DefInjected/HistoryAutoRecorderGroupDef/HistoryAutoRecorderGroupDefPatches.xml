@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--<defName>MoreGraphs_Wealth</defName>-->
+  <MoreGraphs_Wealth.label>Богатство - предметы</MoreGraphs_Wealth.label>
+  <!--<defName>MoreGraphs_Nutrition</defName>-->
+  <MoreGraphs_Nutrition.label>Питание</MoreGraphs_Nutrition.label>
+  <!--<defName>MoreGraphs_Materials</defName>-->
+  <MoreGraphs_Materials.label>Материалы</MoreGraphs_Materials.label>
+  <!--<defName>MoreGraphs_SmallMaterials</defName>-->
+  <MoreGraphs_SmallMaterials.label>Драгоценности</MoreGraphs_SmallMaterials.label>
+  <!--<defName>MoreGraphs_Manufactured</defName>-->
+  <MoreGraphs_Manufactured.label>Изделия</MoreGraphs_Manufactured.label>
+  <!--<defName>MoreGraphs_Power</defName>-->
+  <MoreGraphs_Power.label>Электроэнергия</MoreGraphs_Power.label>
+  <MoreGraphs_Research.label>Технологии</MoreGraphs_Research.label>
+  <MoreGraphs_Weather.label>Погода</MoreGraphs_Weather.label>
+</LanguageData>
