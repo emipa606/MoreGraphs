@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HistoryAutoRecorderGroupDef>
+    <defName>MoreGraphs_Weather</defName>
+    <label>Weather</label>
+    <historyAutoRecorderDefs>
+      <li>MoreGraphs_Environment_TemperaturePlus</li>
+      <li>MoreGraphs_Environment_TemperatureMinus</li>
+      <li>MoreGraphs_Environment_Rain</li>
+      <li>MoreGraphs_Environment_Snow</li>
+      <li>MoreGraphs_Environment_Wind</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Environment_TemperaturePlus</defName>
+    <label>Temperature (+)</label>
+    <graphColor>
+      <!--Red -->(0.95, 0.01, 0.01, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_TemperaturePlus</workerClass>
+    <graphLabelY>degrees</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Environment_TemperatureMinus</defName>
+    <label>Temperature (-)</label>
+    <graphColor>
+      <!--Blue -->(0.376, 0.819, 0.941, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_TemperatureMinus</workerClass>
+    <graphLabelY>degrees</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Environment_Rain</defName>
+    <label>Rain</label>
+    <graphColor>
+      <!--Orange -->(0.878, 0.462, 0.184, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_Rain</workerClass>
+    <graphLabelY>percent</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Environment_Snow</defName>
+    <label>Snow</label>
+    <graphColor>
+      <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_Snow</workerClass>
+    <graphLabelY>percent</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Environment_Wind</defName>
+    <label>Wind</label>
+    <graphColor>
+      <!--Purple -->(0.745, 0.658, 1, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Environment.HistoryAutoRecorderWorker_MoreGraphs_Environment_Wind</workerClass>
+    <graphLabelY>amount</graphLabelY>
+  </HistoryAutoRecorderDef>
+</Defs>

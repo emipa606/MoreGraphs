@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HistoryAutoRecorderGroupDef>
+    <defName>MoreGraphs_Wealth</defName>
+    <label>Wealth - Items</label>
+    <historyAutoRecorderDefs>
+      <li>MoreGraphs_Wealth_Materials</li>
+      <li>MoreGraphs_Wealth_Manufactured</li>
+      <li>MoreGraphs_Wealth_Food</li>
+      <li>MoreGraphs_Wealth_MedicalDrugs</li>
+      <li>MoreGraphs_Wealth_ClothingArmor</li>
+      <li>MoreGraphs_Wealth_Weapons</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Wealth_Materials</defName>
+    <label>Materials</label>
+    <graphColor>
+      <!--Yellow -->(0.819, 0.796, 0.231, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Wealth.HistoryAutoRecorderWorker_MoreGraphsWealthMaterials</workerClass>
+    <graphLabelY>Materials</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Wealth_Manufactured</defName>
+    <label>Manufactured</label>
+    <graphColor>
+      <!--Pink -->(0.909, 0.482, 0.674, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Wealth.HistoryAutoRecorderWorker_MoreGraphsWealthManufactured</workerClass>
+    <graphLabelY>Manufactured</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Wealth_Food</defName>
+    <label>Food</label>
+    <graphColor>
+      <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Wealth.HistoryAutoRecorderWorker_MoreGraphsWealthFood</workerClass>
+    <graphLabelY>Food</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Wealth_MedicalDrugs</defName>
+    <label>Medical / Drugs</label>
+    <graphColor>
+      <!--Orange -->(0.878, 0.462, 0.184, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Wealth.HistoryAutoRecorderWorker_MoreGraphsWealthMedicalDrugs</workerClass>
+    <graphLabelY>Medical / Drugs</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Wealth_ClothingArmor</defName>
+    <label>Apparel</label>
+    <graphColor>
+      <!--Blue -->(0.376, 0.819, 0.941, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Wealth.HistoryAutoRecorderWorker_MoreGraphsWealthClothingArmor</workerClass>
+    <graphLabelY>Apparel</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Wealth_Weapons</defName>
+    <label>Weapons</label>
+    <graphColor>
+      <!--Purple -->(0.745, 0.658, 1, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Wealth.HistoryAutoRecorderWorker_MoreGraphsWealthWeapons</workerClass>
+    <graphLabelY>Weapons</graphLabelY>
+  </HistoryAutoRecorderDef>
+</Defs>

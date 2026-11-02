@@ -1,3 +1,4 @@
+using System.Linq;
 using RimWorld;
 using Verse;
 
@@ -19,12 +20,9 @@ internal class HistoryAutoRecorderWorker_MoreGraphs_ItemCountCategoryBase(ThingC
             }
 
             var allCountedAmounts = map.resourceCounter.AllCountedAmounts;
-            foreach (var key in allCountedAmounts.Keys)
+            foreach (var key in allCountedAmounts.Keys.Where(key => key.IsWithinCategory(ThingCategory)))
             {
-                if (key.IsWithinCategory(ThingCategory))
-                {
-                    num += allCountedAmounts[key];
-                }
+                num += allCountedAmounts[key];
             }
         }
 

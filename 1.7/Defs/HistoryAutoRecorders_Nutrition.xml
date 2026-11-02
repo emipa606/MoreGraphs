@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HistoryAutoRecorderGroupDef>
+    <defName>MoreGraphs_Nutrition</defName>
+    <label>Nutrition</label>
+    <historyAutoRecorderDefs>
+      <li>MoreGraphs_Nutrition_Total</li>
+      <li>MoreGraphs_Nutrition_Veg</li>
+      <li>MoreGraphs_Nutrition_Meat</li>
+      <li>MoreGraphs_Nutrition_AnimalProd</li>
+      <li>MoreGraphs_Nutrition_Meals</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Nutrition_Total</defName>
+    <label>Total</label>
+    <graphColor>
+      <!--Yellow -->(0.819, 0.796, 0.231, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Nutrition.HistoryAutoRecorderWorker_MoreGraphs_NutritionTotal</workerClass>
+    <graphLabelY>Nutrition</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Nutrition_Veg</defName>
+    <label>Vegetarian</label>
+    <graphColor>
+      <!--Light Green -->(0.717, 0.929, 0.576, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Nutrition.HistoryAutoRecorderWorker_MoreGraphs_NutritionVeg</workerClass>
+    <graphLabelY>Nutrition</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Nutrition_Meat</defName>
+    <label>Meat</label>
+    <graphColor>
+      <!--Pink -->(0.909, 0.482, 0.674, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Nutrition.HistoryAutoRecorderWorker_MoreGraphs_NutritionMeat</workerClass>
+    <graphLabelY>Nutrition</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Nutrition_AnimalProd</defName>
+    <label>Animal Products</label>
+    <graphColor>
+      <!--Orange -->(0.878, 0.462, 0.184, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Nutrition.HistoryAutoRecorderWorker_MoreGraphs_NutritionAnimalProd</workerClass>
+    <graphLabelY>Nutrition</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Nutrition_Meals</defName>
+    <label>Meals</label>
+    <graphColor>
+      <!--Blue -->(0.376, 0.819, 0.941, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Nutrition.HistoryAutoRecorderWorker_MoreGraphs_NutritionMeals</workerClass>
+    <graphLabelY>Nutrition</graphLabelY>
+  </HistoryAutoRecorderDef>
+</Defs>

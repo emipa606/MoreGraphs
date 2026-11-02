@@ -3,4 +3,24 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="MoreGraphs/MoreGraphs.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/patches.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/HistoryAutoRecorders_Manufactured.xml" />
+    <File Path="../1.7/Defs/HistoryAutoRecorders_Materials.xml" />
+    <File Path="../1.7/Defs/HistoryAutoRecorders_Nutrition.xml" />
+    <File Path="../1.7/Defs/HistoryAutoRecorders_Power.xml" />
+    <File Path="../1.7/Defs/HistoryAutoRecorders_Research.xml" />
+    <File Path="../1.7/Defs/HistoryAutoRecorders_SmallMaterials.xml" />
+    <File Path="../1.7/Defs/HistoryAutoRecorders_Temperature.xml" />
+    <File Path="../1.7/Defs/HistoryAutoRecorders_Wealth.xml" />
+    <File Path="../1.7/Defs/HistoryAutoRecorders_WealthItems.xml" />
+  </Folder>
 </Solution>

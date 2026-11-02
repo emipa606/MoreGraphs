@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_WealthPerCapita</defName>
+    <label>Wealth per Capita</label>
+    <graphColor>
+      <!--Purple -->(0.745, 0.658, 1, 1)</graphColor>
+    <recordTicksFrequency>30000</recordTicksFrequency>
+    <workerClass>MoreGraphs.HistoryAutoRecorderWorker_WealthPerCapita</workerClass>
+    <graphLabelY>Wealth/Capita</graphLabelY>
+  </HistoryAutoRecorderDef>
+</Defs>

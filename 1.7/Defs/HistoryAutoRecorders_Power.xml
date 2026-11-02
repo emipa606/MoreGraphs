@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HistoryAutoRecorderGroupDef>
+    <defName>MoreGraphs_Power</defName>
+    <label>Power</label>
+    <historyAutoRecorderDefs>
+      <li>MoreGraphs_Engergy_Gain_Rate</li>
+      <li>MoreGraphs_Stored_Energy</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Engergy_Gain_Rate</defName>
+    <label>Excess Energy</label>
+    <graphColor>
+      <!--Yellow -->(0.819, 0.796, 0.231, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Power.HistoryAutoRecorderWorker_MoreGraphs_EnergyGainRate</workerClass>
+    <graphLabelY>W</graphLabelY>
+  </HistoryAutoRecorderDef>
+  <HistoryAutoRecorderDef>
+    <defName>MoreGraphs_Stored_Energy</defName>
+    <label>Stored Energy</label>
+    <graphColor>
+      <!--Pink -->(0.909, 0.482, 0.674, 1)</graphColor>
+    <recordTicksFrequency>6000</recordTicksFrequency>
+    <workerClass>MoreGraphs.Power.HistoryAutoRecorderWorker_MoreGraphs_StoredEnergy</workerClass>
+    <graphLabelY>Wd</graphLabelY>
+  </HistoryAutoRecorderDef>
+</Defs>
